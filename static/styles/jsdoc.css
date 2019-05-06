@@ -24,7 +24,7 @@ img {
 
 a,
 a:active {
-  color: #606;
+  color: #2b2e49;
   text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ h4 {
 
 h4.name {
   color: #fff;
-  background: #6d426d;
+  background: #2b2e49;
   box-shadow: 0 .25em .5em #d3d3d3;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
@@ -99,11 +99,11 @@ h4.name {
 }
 
 h4.name a {
-  color: #fc83ff;
+  color: #2b2e49;
 }
 
 h4.name a:hover {
-  border-bottom-color: #fc83ff;
+  border-bottom-color: rgba(85,85,85,0.8);
 }
 
 h5, .container-overview .subsection-title {
@@ -189,7 +189,6 @@ nav.wrap a{
 }
 
 nav h3 {
-  margin-top: 12px;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -220,7 +219,7 @@ nav ul a:active {
 
 nav a:hover,
 nav a:active {
-  color: #606;
+  color: #2b2e49;
 }
 
 nav > ul {
@@ -228,7 +227,8 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  color: #606;
+  font-weight: 500;
+  color: #2b2e49;
   margin-top: 10px;
 }
 
@@ -250,7 +250,7 @@ nav h2 {
 
 nav > h2 > a {
    margin: 10px 0 -10px;
-   color: #606 !important;
+   color: #2b2e49 !important;
 }
 
 footer {
@@ -284,7 +284,7 @@ footer {
 }
 
 .type-signature {
-  color: #CA79CA
+  color: #19a6ca
 }
 
 .type-signature:last-child {
@@ -296,7 +296,7 @@ footer {
 }
 
 .signature {
-    color: #fc83ff;
+  color: #19a6ca;
 }
 
 .details {
@@ -462,7 +462,7 @@ thead tr, thead tr {
 }
 
 span.param-type, .params td .param-type, .param-type dd {
-   color: #606;
+   color: rgba(85,85,85,0.8);
   font-family: Consolas, Monaco, 'Andale Mono', monospace
 }
 
